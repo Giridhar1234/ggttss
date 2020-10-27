@@ -1,0 +1,162 @@
+.App {
+    text-align: center;
+    
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40px;
+    pointer-events: none;
+  }
+  
+  .App-header1 {
+    background-color: white ;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    border: 2px solid #ddd;
+    border-bottom: 1px solid #61dafb;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+    border-radius: 2px;
+    
+  }
+  /* .header-Text{
+    color: #61dafb;
+    margin-left: "0px";
+  } */
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .table{
+    outline-style: auto;
+  }
+  .LogoutButton{
+    background-color: white; /* Green */
+    border:2px solid #008CBA;;
+    color: black;
+    padding: 6px 16px;
+    text-align: center;
+    border-radius: 2px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    right: 4%;
+    position: absolute;
+    margin: 5px;
+  }
+  
+  .LogoutButton:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  
+  /* buttons  */
+  .holidays,.noholidays {
+    box-shadow: none;
+    padding: 4px 10px;
+    text-shadow: none;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      border-radius: 10px;
+      display: inline-flex;
+      align-items: center;
+      font-size: 13px;
+      border: none;
+      outline:none;
+      white-space: nowrap;
+  }
+  .holidays:focus,.noholidays:focus {outline:0;}
+  
+  /*  select dropdown */
+  
+  
+  
+  .dropdown__select {
+    border-radius: 2px;
+    border: 2px solid rgba(46, 46, 46, 0.4);
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 16px;
+    height: 40px;
+    margin: 4px ;
+    padding: 0 27px 0 10px; 
+    user-select: none;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    outline: none;
+    background: white;
+    appearance: none;
+  }
+  
+  .tooltip-wrapper .btn[disabled] {
+    /* don't let button block mouse events from reaching wrapper */
+    pointer-events: none;
+  }
+  
+  .tooltip-wrapper.disabled {
+    /* OPTIONAL pointer-events setting above blocks cursor setting, so set it here */
+    cursor: not-allowed;
+  }
+  
+  #div_fillsheet, #div_holiday{
+    padding: 5px;
+  }
+  .info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+  }
+  
+  /**/
+  .Menu{
+  
+    color: white;
+    font-size: 15px;
+    justify-content: end;
+    background: #61dafb;
+    display: flex;
+    
+    flex-direction: row;
+    
+  }
+  .menu-link{
+  
+    color: white;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 1px !important;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+  /* #menu-link #active{
+    background: #f39c12;
+  }  */
+  .menu-link:hover  {
+    background: cadetblue;
+    /* background: darken($primarycolor, 20%); */
+  
+  }
+  .menu-link:active  {
+    background: cadetblue;
+    /* background: darken($primarycolor, 20%); */
+  
+  }
+   .orange {
+    background: #f39c12;
+  }
+  
+  /**/

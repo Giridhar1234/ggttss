@@ -1,0 +1,1 @@
+{"Employee":[{"id":"3","ReceiverId":"amal","SenderId":"Sai","Status":"1"},{"id":"4","ReceiverId":"amal","SenderId":"vamsi","Status":"1"},{"id":"4","ReceiverId":"amal","SenderId":"vamsi","Status":"1"}],"Department":[{"id":"4","Name":"Finance"},{"id":"100","Name":"Travel"}]}

@@ -1,0 +1,112 @@
+.AppUpdateEmployee {
+    text-align: center;
+    height: 86vh;
+  }
+  
+
+.updatecomponets{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%
+}
+.AppViewEmployees{
+    display: flex;
+    width: 100%;
+   
+   box-sizing: border-box;
+    font-size: 15px;
+}
+
+.TableCom{
+    max-height: 75vh;
+overflow: auto;}
+
+.addempbtn, .updateempbtn, .viewallbtn, .activitybtn, .empaddsubmit{
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+}
+.activityadd{
+    margin: 5px;
+}
+.AppAddEmployee{
+    margin-top: 5%;
+}
+.AppAddEmployee td{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.AppTableCom{
+    /* height:450px; */
+    max-height: 67vh;
+    overflow:auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+.AppActivity{
+    /* height:449px; */
+        max-height: 67vh;
+    overflow:auto;
+    margin-top: 0px;
+    border: 1px solid rgba(41, 24, 24, 0.3);
+}
+.AppTableCom thead,.AppActivity thead{
+background-color: rgba(26, 19, 19, 0.3);
+}
+
+.AppTableCom th,.AppActivity th{
+    
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(2, 2, 2);
+    text-transform: uppercase;
+    border:none;
+  }
+  .AppTableCom td,.AppActivity td{
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(17, 17, 17);
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+  }
+  .AppActivity table{
+      width: 100%;
+  }
+  
+  /* demo styles
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+  .AppUpdateEmployee{
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    font-family: 'Roboto', sans-serif;
+  } */
+
+
+  
+/* for custom scrollbar for webkit browser*/
+
+.AppTableCom::-webkit-scrollbar,.AppActivity::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+} 
+.AppTableCom::-webkit-scrollbar-track ,.AppActivity::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+.AppTableCom::-webkit-scrollbar-thumb ,.AppActivity::-webkit-scrollbar-thumb  {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+input[type="text"],input[type="date"] ,select{
+
+    background-color :unset; 
+  
+  }
